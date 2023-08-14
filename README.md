@@ -27,6 +27,8 @@
 ## About
 This project was a <strong>classroom assignment</strong> for the <strong>[University of Birmingham Full-Stack Development Coding Bootcamp](https://gist.github.com/djbowen95/2846640d520a16165b9b23db2d9e0926)</strong>: a 24-week intensive coding bootcamp programme that aimed to teach us the full-range of skills required for <strong>front-end</strong>, <strong>back-end</strong> and <strong>React development</strong>. This project was assigned during <strong>Week 18</strong>, which covered <strong>NoSQL Databases with MongoDB</strong>.
 
+You can view the project brief [here](https://github.com/djbowen95/Student-Stat-Tracker/blob/main/docs/BRIEF.md).
+
 ## Version History
 ### 0.0.0 Starter Code
 This project was built with starter code - I have presented these as a release, so you can see which work is my own.
