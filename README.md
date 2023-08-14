@@ -1,6 +1,6 @@
 <h1 align="center"> 🧑‍🎓 Student Statistic Tracker: Complete Back-End </h1>
 <div align="center">
-  <p>The student statistic tracker is a complete back-end API built in Node / Express, with a Mongo DB database and Mongoose OM.</p>
+  <p>The student statistic tracker is a complete back-end API built in Node / Express, with a Mongo DB database and Mongoose ODM.</p>
   <p>The project was an assignment for the <a href="https://gist.github.com/djbowen95/2846640d520a16165b9b23db2d9e0926"><strong>University of Birmingham Full-Stack Development Coding Bootcamp</strong></a>. It was built from starter code.</p>
 
 <a href="https://djbowen95.github.io/Student-Stat-Tracker/"><img src="https://img.shields.io/badge/Not%20currently%20deployed%20-e34c02?style=flat-square" alt="deployed link badge"></a>
