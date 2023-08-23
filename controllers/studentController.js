@@ -2,13 +2,12 @@
 const { ObjectId } = require('mongoose').Types;
 const { Student, Course } = require('../models');
 
-const headCount = async () => {
+const headCount = async () =>
   Student.aggregate().count('numberOfStudents')
   .then((numberOfStudents) => {
     console.log(numberOfStudents);
     return numberOfStudents;
   });
-}
 
 // // TODO: Create an aggregate function to get the number of students overall
 // const headCount = async () =>
