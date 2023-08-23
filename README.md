@@ -21,13 +21,34 @@
 
 ## Contents
 1. [About](#about)
-2. [Version History](#version-history)
-3. [Contact](#contact)
+2. [User Guide](#user-guide)
+3. [Key Features](#key-features)
+4. [Testing](#testing)
+5. [Version History](#version-history)
+6. [Contact](#contact)
 
 ## About
 This project was a <strong>classroom assignment</strong> for the <strong>[University of Birmingham Full-Stack Development Coding Bootcamp](https://gist.github.com/djbowen95/2846640d520a16165b9b23db2d9e0926)</strong>: a 24-week intensive coding bootcamp programme that aimed to teach us the full-range of skills required for <strong>front-end</strong>, <strong>back-end</strong> and <strong>React development</strong>. This project was assigned during <strong>Week 18</strong>, which covered <strong>NoSQL Databases with MongoDB</strong>.
 
 You can view the project brief [here](https://github.com/djbowen95/Student-Stat-Tracker/blob/main/docs/BRIEF.md).
+
+## User Guide
+This RESTful API is built with a series of queries to a database that contains courses, students, and assignments. <br/>
+The following routes can be used to manipulate course data:
+ - Read data for all courses, with `GET:` `localhost:3001/api/courses/`
+ - Create a record for a new course, with `POST:` `localhost:3001/api/courses/` and `{ "courseName": $yourCourseHere }` body
+ - Read a single course by id, with `GET:` `localhost:3001/api/courses/:yourCourseId`
+ - Update a course, with `PUT:` `localhost:3001/api/courses/:yourCourseId`
+ - Delete a course, with `DELETE:` `localhost:3001/api/courses/:yourCourseId` 
+The following routes can be used to manipulate student data:
+ - Read data for all students, with `GET:` `localhost:3001/api/students`
+ - Create a record for a new student, with `POST:` `localhost:3001/api/students/` and `{ first, last, github }` body 
+ - Read data for a single student by id, with `GET:` `localhost:3001/api/students/:yourStudentId`
+ - Delete a student record, with `DELETE:` `localhost:3001/api/students/:yourStudentId`
+The following routes can be used to manipulate data about assignments:
+ - Add an assignment to a student's record, with `POST:` `localhost:3001/api/students/:yourStudentId/assignments/` and optional `{ assignmentName }` body
+ - Get record of an individual assignment with `GET:` `localhost:3001/api/students/:yourStudenId/assignments/:yourAssignmentId`
+ - Delete record of an assignment, with `DELETE:` `localhost:3001/api/students/:yourStudenId/assignments/:yourAssignmentId`
 
 ## Version History
 ### 0.0.0 Starter Code
